@@ -1,3 +1,4 @@
 yaml
-# Procfile (без расширения)
+
+# Procfile
 web: gunicorn app:app --bind=0.0.0.0:$PORT
